@@ -106,7 +106,6 @@ impl Camera {
 
     /// Get perspective matrix
     pub fn perspective(&self) -> Matrix4<f32> {
-        use std::f32;
 
         let zfar = 1024.0;
         let znear = 1.0;

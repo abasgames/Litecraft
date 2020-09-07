@@ -16,7 +16,6 @@
 use glium::index::PrimitiveType;
 use glium::{Display, IndexBuffer, VertexBuffer};
 
-use std::error::Error;
 
 pub type VertexData2D = (VertexBuffer<Vertex2D>, IndexBuffer<u16>);
 pub type VertexData3D = (VertexBuffer<Vertex3D>, IndexBuffer<u16>);

@@ -23,5 +23,5 @@ git = "https://github.com/Litecrafty/conrod"
 features = ["glium", "winit"]
 
 [dependencies.glium]
-git = "https://github.com/Litecrafty/glium"
+git = "https://github.com/KeyMaster-/glium"
 features = ["icon_loading"]

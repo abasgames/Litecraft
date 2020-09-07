@@ -153,7 +153,6 @@ where
                     "tex",
                     texture
                         .sampled()
-                        .wrap_function(SamplerWrapFunction::BorderClamp)
                         .magnify_filter(magnify_filter),
                 )
                 .add("resolution", [texture.width() as f32, texture.height() as f32]);

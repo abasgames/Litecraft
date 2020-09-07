@@ -174,11 +174,6 @@ impl Canvas {
             None
         };
 
-        let icon = Resource::litecraft("logo", ResourceType::Texture)
-            .load_binary()
-            .ok()
-            .and_then(|logo| Icon::from_bytes(&logo).ok());
-
         // Create or window
         WindowBuilder::new()
             .with_min_dimensions((settings.width(), settings.height()).into())

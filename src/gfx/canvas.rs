@@ -104,7 +104,7 @@ impl Canvas {
         while status != ControlFlow::Break {
             // Check for events
             events_loop.poll_events(|events| {
-                use conrod::backend::winit::convert_event;
+                use conrod::convert_event;
 
                 if let Some(event) = convert_event(events.clone(), &canvas.display) {
                     canvas.ui.handle_event(event);

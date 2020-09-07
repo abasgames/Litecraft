@@ -24,8 +24,6 @@ use gfx::scene::{Scene, SceneAction};
 
 use glium::glutin::{ContextBuilder, ControlFlow, Event, EventsLoop, WindowBuilder, WindowEvent};
 use glium::{Display, Surface};
-
-use conrod::backend::glium::Renderer;
 use conrod::{Ui, UiBuilder};
 
 use rhai::Engine;

@@ -50,7 +50,6 @@ mod tests;
 fn main() {
     println!("{}", ASCII_ART);
 
-    simple_logger::init().expect("Failed to initialize logger!");
 
     info!(
         "Starting Litecraft {} for Minecraft {}...",
